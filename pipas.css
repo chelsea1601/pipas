@@ -1,0 +1,68 @@
+/* Mengatur tampilan keseluruhan */
+body {
+    font-family: Arial, sans-serif;
+    background-color: beige;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border-radius: 3rem;
+}
+
+/* Kontainer utama */
+.container {
+    background-color: rgba(246, 234, 234, 0.9); /* Warna latar belakang dengan transparansi */
+    padding: 30px;
+    border-radius: 12px; /* Sudut yang lebih bulat */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Bayangan yang lebih dalam */
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Judul */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2rem; /* Ukuran font yang lebih besar */
+    margin-bottom: 1rem; /* Jarak bawah */
+    padding-top: 6rem;
+}
+
+/* Subtitle */
+h2 {
+    text-align: center;
+    color: #16a085;
+    font-size: 1.5rem; /* Ukuran font yang lebih besar */
+    margin-top: 1.5rem; /* Jarak atas */
+}
+
+/* Form input */
+label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+button{
+    margin-top: 2rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    transform: 0.5s;
+}
+
+button:hover{
+    background-color: grey;
+    color: white;
+    transition: ease-out 0.2s;
+}
+
+/* Input dan radio button */
+input[type="number"], input[type="radio"] {
+    width: 100%;
+    padding: 12px;
+    border-radius: 1rem;
+}
